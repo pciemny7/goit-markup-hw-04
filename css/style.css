@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.button-click {
+    background-color: #4d5ae5;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-click:hover,
+.button-click:focus {
+    background-color: #404bbf;
+}
+
+.button-click:active {
+    background-color: #404bbf;
+}
+
+.contact-list {
+    font-style: normal;
+}
+
+.left-navi-list {
+    list-style: none;
+}
+
+.right-navi-list {
+    list-style: none;
+}
+
+.modern-list {
+    list-style: none;
+}
+
+.person-list {
+    list-style: none;
+}
+.portfolio-list {
+    list-style: none;
+}
+.link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+
+.link:active {
+    color: #404bbf;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo .logo-dark {
+    color: #2e2f42;
+}
+
+.logo .logo-bright {
+    color: #f4f4fd;
+}
+
+.contact-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
+.contact-link:active {
+    color: #404bbf;
+}
+
+.pudelko {
+    background-color: #2e2f42;
+}
+
+.main-header {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.text-bright {
+    color: #f4f4fd;
+}
+
+.header-titles {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list-titles {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.workers {
+    background-color: #ffffff;
+}
+
+ul p {
+    color: #434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-background {
+    background-color: #f4f4fd;
+}
+.funkcja {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer-background {
+    background-color: #2e2f42;
+}
