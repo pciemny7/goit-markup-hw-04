@@ -59,7 +59,6 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
-    max-width: 169px;
 }
 
 .button-click:hover,
@@ -103,6 +102,7 @@ a {
 .person-list {
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 .portfolio-list {
     display: flex;
@@ -276,15 +276,20 @@ ul p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin: 0;
 }
 
 .workers-card {
-.workers-card {
+    list-style-type: none;
     background-color: #ffffff;
     text-align: center;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+.workers-card-containter {
+    margin: 0;
+    padding: 32px 16px;
+    text-align: center;
 }
 
 .card {
@@ -305,13 +310,16 @@ ul p {
 }
 .team-background {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .function {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .footer-background {
