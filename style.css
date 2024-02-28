@@ -96,7 +96,6 @@ a {
 }
 
 .modern {
-    margin: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -300,17 +299,17 @@ ul p {
     border-top: none;
 }
 
-ul p {
+/*ul p {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
-}
+}*/
 .team-background {
     background-color: #f4f4fd;
 }
 .function {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
